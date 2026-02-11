@@ -1,7 +1,4 @@
-import React from 'react'
-import Todo from './Components/todo'
 import { useState, useEffect } from 'react'
-
 const App = () => {
   const [todos, setTodos] = useState(()=>{
           const saved = localStorage.getItem("todo")
