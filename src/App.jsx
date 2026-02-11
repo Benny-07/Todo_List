@@ -29,8 +29,8 @@ const App = () => {
       }
   return (
     <div className='min-h-screen flex justify-center items-center bg-amber-500'>
-        <div className='w-full max-w-md rounded bg-white p-6 shadow-lg'>
-            <h1 className='text-center font-bold text-3xl mb-4'>Todo Application with LS</h1>
+        <div className='w-1000 max-w-md rounded bg-white p-5 shadow-lg'>
+            <h1 className='text-center font-bold text-3xl mb-4'>Todo Application</h1>
             <div className='mb-4 flex gap-3'>
                 <input type="text" 
                 className='flex-1 rounded border px-3 py-2 outline-none focus:ring-2 focus:ring-amber-400'
